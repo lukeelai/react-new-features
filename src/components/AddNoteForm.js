@@ -12,7 +12,7 @@ const AddNoteForm = () => {
     setBody("");
   };
   return (
-    <div>
+    <>
       <p>Add Note</p>
       <form onSubmit={addNote}>
         <input
@@ -29,7 +29,7 @@ const AddNoteForm = () => {
         ></textarea>
         <button>Add Note</button>
       </form>
-    </div>
+    </>
   );
 };
 
